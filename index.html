@@ -4,12 +4,16 @@
         <title> </title>
     </head>
     <body>
-        <button onclick="popup()"> Definition </button>
+        
+       
         
         <script>
-        function popup() {
+       var xmlhttp = new XMLHttpRequest();
+       xml.onclick= popup() {
             alert("Definition: A statement of the exact meaning of a word, especially in a dictionary.");
         }
+        xmlhttp.open("GET", "request.php?q=definition", true);
+        xmlhttp.send();
         </script>
     
         
